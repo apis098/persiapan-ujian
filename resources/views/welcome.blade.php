@@ -21,13 +21,13 @@
             <!-- banner text -->
           <div class="banner_text">
             <!-- h1 -->
-            <h1>Best way to <span>manage your customers.</span></h1>
+            <p class="welcome-text">Selamat datang di  <span> Kane Pict</span></p>
             <!-- p -->
-            <p>Lorem Ipsum is simply dummy text of the printing and setting indus orem Ipsum has been the industrys.
+            <p>Kami sangat senang Anda telah memilih untuk mengunjungi galeri foto kami. Di sini, kami mengundang Anda untuk menjelajahi dunia gambar yang menginspirasi, penuh warna, dan sarat dengan cerita.
             </p>
           </div>
           <!-- app buttons -->
-          <ul class="app_btn">
+          {{-- <ul class="app_btn">
             <li>
               <a href="#">
                 <img class="blue_img" src="{{asset('images/appstore_blue.png')}}" alt="image" >
@@ -40,10 +40,10 @@
                 <img class="white_img" src="{{asset('images/googleplay_white.png')}}" alt="image" >
               </a>
             </li>
-          </ul>
+          </ul> --}}
 
           <!-- users -->
-          <div class="used_app">
+          {{-- <div class="used_app">
             <ul>
               <li><img src="{{asset('images/used01.png')}}" alt="image" ></li>
               <li><img src="{{asset('images/used02.png')}}" alt="image" ></li>
@@ -51,38 +51,20 @@
               <li><img src="{{asset('images/used04.png')}}" alt="image" ></li>
             </ul>
             <p>12M + <br> used this app</p>
-          </div>
+          </div> --}}
         </div>
 
         <!-- banner slides start -->
-        <div class="col-lg-6 col-md-12"  data-aos="fade-in" data-aos-duration="1500">
-          <div class="banner_slider">
+        <div class="col-lg-6 col-md-12 right-hero"  data-aos="fade-in" data-aos-duration="1500">
+          <div class="banner_slider moving_animation ">
+            <img class="img-fluid" style="margin-left: 12%" width="75%" src="{{asset('images/hero.png')}}" alt="">
             <div class="left_icon">
               <img src="{{asset('images/message_icon.png')}}" alt="image" >
             </div>
             <div class="right_icon">
               <img src="{{asset('images/shield_icon.png')}}" alt="image" >
             </div>
-            <div id="frmae_slider" class="owl-carousel owl-theme">
-              <div class="item">
-                <div class="slider_img">
-                  <img src="{{asset('images/screen.png')}}" alt="image" >
-                </div>
-              </div>
-              <div class="item">
-                <div class="slider_img">
-                  <img src="{{asset('images/screen.png')}}" alt="image" >
-                </div>
-              </div>
-              <div class="item">
-                <div class="slider_img">
-                  <img src="{{asset('images/screen.png')}}" alt="image" >
-                </div>
-              </div>
-            </div>
-            <div class="slider_frame">
-              <img src="{{asset('images/mobile_frame_svg.svg')}}" alt="image" >
-            </div>
+           
           </div>
         </div>
         <!-- banner slides end -->

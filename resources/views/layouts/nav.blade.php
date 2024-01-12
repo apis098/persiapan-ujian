@@ -3,7 +3,7 @@
         <!-- navigation bar -->
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="image">
+                <img src="{{asset('images/company-logo.png')}}" alt="image">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -91,7 +91,7 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link dark_btn" href="contact.html">GET STARTED</a>
+                        <a class="nav-link dark_btn" href="contact.html">MASUK</a>
                     </li>
                 </ul>
             </div>

@@ -30,17 +30,17 @@
     <!-- Responsive-Style-link -->
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('images/icon.png')}}" type="image/x-icon">
 </head>
 
 <body>
-    <div id="page_wrapper">
+    <div class="page_wrapper">
         <!-- Preloader -->
         <div id="preloader">
             <div id="loader"></div>
         </div>
-        @include('layouts.nav')
         <main>
+            @include('layouts.nav')
             @yield('content')
         </main>
     </div>
