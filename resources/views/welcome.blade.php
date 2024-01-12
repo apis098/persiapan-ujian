@@ -17,7 +17,7 @@
       </div>
       <!-- row start -->
       <div class="row">
-        <div class="col-lg-6 col-md-12"  data-aos="fade-right" data-aos-duration="1500">
+        <div class="col-lg-6 col-md-12 container-left"  data-aos="fade-right" data-aos-duration="1500">
             <!-- banner text -->
           <div class="banner_text">
             <!-- h1 -->
@@ -26,32 +26,14 @@
             <p>Kami sangat senang Anda telah memilih untuk mengunjungi galeri foto kami. Di sini, kami mengundang Anda untuk menjelajahi dunia gambar yang menginspirasi, penuh warna, dan sarat dengan cerita.
             </p>
           </div>
-          <!-- app buttons -->
-          {{-- <ul class="app_btn">
-            <li>
-              <a href="#">
-                <img class="blue_img" src="{{asset('images/appstore_blue.png')}}" alt="image" >
-                <img class="white_img" src="{{asset('images/appstore_white.png')}}" alt="image" >
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img class="blue_img" src="{{asset('images/googleplay_blue.png')}}" alt="image" >
-                <img class="white_img" src="{{asset('images/googleplay_white.png')}}" alt="image" >
-              </a>
-            </li>
-          </ul> --}}
-
-          <!-- users -->
-          {{-- <div class="used_app">
-            <ul>
-              <li><img src="{{asset('images/used01.png')}}" alt="image" ></li>
-              <li><img src="{{asset('images/used02.png')}}" alt="image" ></li>
-              <li><img src="{{asset('images/used03.png')}}" alt="image" ></li>
-              <li><img src="{{asset('images/used04.png')}}" alt="image" ></li>
-            </ul>
-            <p>12M + <br> used this app</p>
-          </div> --}}
+          <div class="home_search_bar">
+            <form action="#">
+                <div class="form-group group-form">
+                    <input type="text" placeholder="Gambar apa yang ingin anda cari?..." class="form-control input-search">
+                    <button class="btn btn-search" type="submit"><i class="icofont-search-1"></i></button>
+                </div>
+            </form>
+          </div>
         </div>
 
         <!-- banner slides start -->
@@ -201,145 +183,6 @@
   </section>
   <!-- Features-Section-end -->
 
-  <!-- About-App-Section-Start -->
-  {{-- <section class="row_am about_app_section">
-    <!-- container start -->
-    <div class="container">
-        <!-- row start -->
-      <div class="row">
-        <div class="col-lg-6">
-
-            <!-- about images -->
-          <div class="about_img" data-aos="fade-in" data-aos-duration="1500">
-            <div class="frame_img">
-              <img class="moving_position_animatin" src="{{asset('images/about-frame.png')}}" alt="image" >
-            </div>
-            <div class="screen_img">
-              <img class="moving_animation" src="{{asset('images/about-screen.png')}}" alt="image" >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-
-            <!-- about text -->
-          <div class="about_text">
-            <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-
-                <!-- h2 -->
-              <h2>Some awesome words <span>about app.</span></h2>
-
-              <!-- p -->
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
-                industrys standard dummy text ever since the when an unknown printer took a galley of type and. Lorem
-                ipsum dolor sit amet.
-              </p>
-            </div>
-
-            <!-- UL -->
-            <ul class="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">
-              <li>
-                <div class="icon">
-                  <img src="{{asset('images/download.png')}}" alt="image" >
-                </div>
-                <div class="text">
-                  <p><span class="counter-value" data-count="17">0</span><span>M+</span></p>
-                  <p>Download</p>
-                </div>
-              </li>
-              <li>
-                <div class="icon">
-                  <img src="{{asset('images/followers.png')}}" alt="image" >
-                </div>
-                <div class="text">
-                  <p><span class="counter-value" data-count="08">0 </span><span>M+</span></p>
-                  <p>Followers</p>
-                </div>
-              </li>
-              <li>
-                <div class="icon">
-                  <img src="{{asset('images/reviews.png')}}" alt="image" >
-                </div>
-                <div class="text">
-                  <p><span class="counter-value" data-count="2300">1500</span><span>+</span></p>
-                  <p>Reviews</p>
-                </div>
-              </li>
-              <li>
-                <div class="icon">
-                  <img src="{{asset('images/countries.png')}}" alt="image" >
-                </div>
-                <div class="text">
-                  <p><span class="counter-value" data-count="150">0</span><span>+</span></p>
-                  <p>Countries</p>
-                </div>
-              </li>
-            </ul>
-            <!-- UL end -->
-            <a href="contact.html" class="btn puprple_btn" data-aos="fade-in" data-aos-duration="1500">START FREE TRIAL</a>
-          </div>
-        </div>
-      </div>
-      <!-- row end -->
-    </div>
-    <!-- container end -->
-  </section> --}}
-  <!-- About-App-Section-end -->
-
-  <!-- ModernUI-Section-Start -->
-  <section class="row_am modern_ui_section">
-    <!-- container start -->
-    <div class="container">
-        <!-- row start -->
-      <div class="row">
-        <div class="col-lg-6">
-            <!-- UI content -->
-          <div class="ui_text">
-            <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-              <h2>Beautiful design with <span>modern UI</span></h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
-                industrys standard dummy text ever since the when an unknown printer took a galley of type and.
-              </p>
-            </div>
-            <ul class="design_block">
-              <li data-aos="fade-up" data-aos-duration="1500">
-                <h4>Carefully designed</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and type esetting industry lorem Ipsum has.</p>
-              </li>
-              <li data-aos="fade-up" data-aos-duration="1500">
-                <h4>Seamless Sync</h4>
-                <p>Simply dummy text of the printing and typesetting inustry lorem Ipsum has Lorem dollar summit.</p>
-              </li>
-              <li data-aos="fade-up" data-aos-duration="1500">
-                <h4>Access Drive</h4>
-                <p>Printing and typesetting industry lorem Ipsum has been the industrys standard dummy text of type
-                  setting.</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6">
-            <!-- UI Image -->
-          <div class="ui_images" data-aos="fade-in" data-aos-duration="1500">
-            <div class="left_img">
-              <img class="moving_position_animatin" src="{{asset('images/modern01.png')}}" alt="image" >
-            </div>
-            <!-- UI Image -->
-            <div class="right_img">
-              <img class="moving_position_animatin" src="{{asset('images/secure_data.png')}}" alt="image" >
-              <img class="moving_position_animatin" src="{{asset('images/modern02.png')}}" alt="image" >
-              <img class="moving_position_animatin" src="{{asset('images/modern03.png')}}" alt="image" >
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- row end -->
-    </div>
-    <!-- container end -->
-  </section>
-  <!-- ModernUI-Section-end -->
-
   <!-- How-It-Workes-Section-Start -->
   <section class="row_am how_it_works" id="how_it_work">
     <!-- container start -->
@@ -406,38 +249,6 @@
           </ul>
         </div>
       </div>
-
-      <!-- video section start -->
-      <div class="yt_video" data-aos="fade-in" data-aos-duration="1500">
-       <!-- animation line -->
-        <div class="anim_line dark_bg">
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-        </div>
-        <div class="thumbnil">
-          <img src="{{asset('images/yt_thumb.png')}}" alt="image" >
-          <a class="popup-youtube play-button" data-url="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" data-toggle="modal" data-target="#myModal" title="XJj2PbenIsU">
-            <span class="play_btn">
-              <img src="{{asset('images/play_icon.png')}}" alt="image" >
-              <div class="waves-block">
-                <div class="waves wave-1"></div>
-                <div class="waves wave-2"></div>
-                <div class="waves wave-3"></div>
-              </div>
-            </span>
-            Let’s see virtually how it works
-            <span>Watch video</span>
-          </a>
-        </div>
-      </div>
-      <!-- video section end -->
     </div>
     <!-- container end -->
   </section>
