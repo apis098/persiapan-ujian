@@ -864,7 +864,7 @@ header.fixed .navbar {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
+    margin-top: 50px;
     padding-top: 60px;
     padding-bottom: 20px;
     box-shadow: 0px 4px 30px #EDE9FE;
@@ -873,13 +873,17 @@ header.fixed .navbar {
 /* features section image */
 .features_section .feature_detail .feature_img {
     position: absolute;
-    left: 50%;
+    left: 55%;
+    top: -6%;
     transform: translateX(-50%);
-    top: -75px;
 }
-
+@media screen and (max-width:768px){
+    .feature_img{
+        display: none;
+    }
+}
 .features_section .feature_detail .feature_img img {
-    max-width: 100%;
+    width:75%;
 }
 
 /* features section box */
@@ -2651,7 +2655,10 @@ header.fix_style.white_header {
 .why_we_section .why_inner .why_box .icon {
     margin-bottom: 45px;
 }
-
+.icon-fiture img{
+    border-radius: 100%;
+    width: 50px;
+}
 .why_we_section .why_inner .why_box .icon img {
     max-width: 100%;
 }

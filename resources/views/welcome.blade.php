@@ -146,10 +146,9 @@
     <div class="container">
       <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
         <!-- h2 -->
-        <h2><span>Features</span> that makes app different!</h2>
+        <h2><span>Fitur</span> Yang Bisa Di Nikmati!</h2>
         <!-- p -->
-        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br> indus orem Ipsum has beenthe
-          standard dummy.</p>
+        <p>Kami menyediakan pengalaman pencarian yang fantastis untuk anda coba!</p>
       </div>
       <div class="feature_detail">
         <!-- feature box left -->
@@ -157,23 +156,17 @@
 
             <!-- feature box -->
           <div class="data_block" data-aos="fade-right" data-aos-duration="1500">
-            <div class="icon">
-              <img src="{{asset('images/secure_data.png')}}" alt="image" >
-            </div>
             <div class="text">
-              <h4>Secure data</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>
+              <h4>Pencarian Gambar</h4>
+              <p>Fitur pencarian memungkinkan pengguna untuk mencari gambar berdasarkan kata kunci, topik, atau kategori tertentu.</p>
             </div>
           </div>
 
           <!-- feature box -->
           <div class="data_block" data-aos="fade-right" data-aos-duration="1500">
-            <div class="icon">
-              <img src="{{asset('images/functional.png')}}" alt="image" >
-            </div>
             <div class="text">
-              <h4>Fully functional</h4>
-              <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>
+              <h4>Unduhan Gambar</h4>
+              <p>Fitur ini memungkinkan pengguna mengunduh gambar secara langsung ke perangkat mereka.</p>
             </div>
           </div>
         </div>
@@ -183,30 +176,24 @@
 
             <!-- feature box -->
           <div class="data_block" data-aos="fade-left" data-aos-duration="1500">
-            <div class="icon">
-              <img src="{{asset('images/live-chat.png')}}" alt="image" >
-            </div>
             <div class="text">
-              <h4>Live chat</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>
+              <h4>Interaksi Pengguna</h4>
+              <p>Mungkin termasuk komentar, penilaian, atau kemampuan untuk menyukai gambar untuk interaksi pengguna.</p>
             </div>
           </div>
 
           <!-- feature box -->
           <div class="data_block" data-aos="fade-left" data-aos-duration="1500">
-            <div class="icon">
-              <img src="{{asset('images/support.png')}}" alt="image" >
-            </div>
             <div class="text">
-              <h4>24-7 Support</h4>
-              <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>
+              <h4>Informasi dan Atribusi</h4>
+              <p>Menyediakan informasi tentang gambar, dan instruksi terkait penggunaan gambar.</p>
             </div>
           </div>
 
         </div>
         <!-- feature image -->
         <div class="feature_img" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-          <img src="{{asset('images/features_frame.png')}}" alt="image" >
+          <img src="{{asset('images/about-frame.png')}}" alt="image" >
         </div>
       </div>
     </div>
@@ -215,7 +202,7 @@
   <!-- Features-Section-end -->
 
   <!-- About-App-Section-Start -->
-  <section class="row_am about_app_section">
+  {{-- <section class="row_am about_app_section">
     <!-- container start -->
     <div class="container">
         <!-- row start -->
@@ -296,7 +283,7 @@
       <!-- row end -->
     </div>
     <!-- container end -->
-  </section>
+  </section> --}}
   <!-- About-App-Section-end -->
 
   <!-- ModernUI-Section-Start -->
