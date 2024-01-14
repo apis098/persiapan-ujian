@@ -42,6 +42,7 @@
         <main>
             @include('layouts.nav')
             @yield('content')
+            @include('layouts.footer')
         </main>
     </div>
 </body>

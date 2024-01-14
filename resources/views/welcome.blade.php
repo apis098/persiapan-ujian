@@ -58,69 +58,6 @@
   </section>
   <!-- Banner-Section-end -->
 
-  <!-- Trusted Section start -->
-  <section class="row_am trusted_section">
-    <!-- container start -->
-    <div class="container">
-      <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-        <!-- h2 -->
-        <h2>Trusted by <span>150+</span> companies</h2>
-        <!-- p -->
-        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br> indus orem Ipsum has beenthe
-          standard dummy.</p>
-      </div>
-
-      <!-- logos slider start -->
-      <div class="company_logos" >
-        <div id="company_slider" class="owl-carousel owl-theme">
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/paypal.png')}}" alt="image" >
-            </div>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/spoty.png')}}" alt="image" >
-            </div>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/shopboat.png')}}" alt="image" >
-            </div>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/slack.png')}}" alt="image" >
-            </div>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/envato.png')}}" alt="image" >
-            </div>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/paypal.png')}}" alt="image" >
-            </div>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/spoty.png')}}" alt="image" >
-            </div>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="{{asset('images/shopboat.png')}}" alt="image" >
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- logos slider end -->
-    </div>
-    <!-- container end -->
-  </section>
-  <!-- Trusted Section ends -->
-
 
   <!-- Features-Section-Start -->
   <section class="row_am features_section" id="features">
@@ -182,7 +119,138 @@
     <!-- container end -->
   </section>
   <!-- Features-Section-end -->
+  <!-- Beautifull-interface-Section start -->
+  <section class="row_am">
+    <!-- container start -->
+    <div class="container-fluid">
+      <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+          <!-- h2 -->
+          <h2>Gambar <span>Tervaforit Minggu Ini</span></h2>
+          <!-- p -->
+          <p>
+            Temukan gambar-gambar yang sedang trending di fitur kami <br> yang selalu diperbarui.
+          </p>
+      </div>
 
+        <!-- screen slider start -->
+        <div class="screen_slider" >
+          <div id="screen_slider" class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="screen_frame_img">
+                  <img class="frame_img" style="object-fit: cover" src="{{asset('images/story02.png')}}" alt="image">
+              </div>
+              <div class="text-center mt-2">
+                <a href="contact.html" class="btn white_btn">Detail</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="screen_frame_img">
+                  <img class="frame_img" style="object-fit: cover" src="{{asset('images/story03.png')}}" alt="image" >
+              </div>
+              <div class="text-center mt-2">
+                <a href="contact.html" class="btn white_btn">Detail</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="screen_frame_img">
+                  <img class="frame_img" style="object-fit: cover" src="{{asset('images/story04.png')}}" alt="image" >
+              </div>
+              <div class="text-center mt-2">
+                <a href="contact.html" class="btn white_btn">Detail</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="screen_frame_img">
+                  <img class="frame_img" style="object-fit: cover" src="{{asset('images/story05.png')}}" alt="image" >
+              </div>
+              <div class="text-center mt-2">
+                <a href="contact.html" class="btn white_btn">Detail</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="screen_frame_img">
+                  <img class="frame_img" style="object-fit: cover" src="{{asset('images/story07.png')}}" alt="image" >
+              </div>
+              <div class="text-center mt-2">
+                <a href="contact.html" class="btn white_btn">Detail</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="screen_frame_img">
+                  <img class="frame_img" style="object-fit: cover" src="{{asset('images/story08.png')}}" alt="image" >
+              </div>
+              <div class="text-center mt-2">
+                <a href="contact.html" class="btn white_btn">Detail</a>
+              </div>
+            </div>
+        </div>
+        </div>
+        <!-- screen slider end -->
+    </div>
+    <!-- container end -->
+  </section>
+  <!-- Beautifull-interface-Section end -->
+  <!-- Story-Section-Start -->
+  <section class="row_am latest_story" id="blog">
+    <!-- container start -->
+     <div class="container">
+         <div class="section_title" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="100">
+             <h2>Gambar <span>Terpopuler Minggu Ini</span></h2>
+             <p>Nikmati keindahan gambar-gambar terpopuler yang dipilih khusus untukmu <br> setiap minggunya.</p>
+         </div>
+         <!-- row start -->
+         <div class="row">
+             <!-- story -->
+           <div class="col-md-4">
+               <div class="story_box" data-aos="fade-up" data-aos-duration="1500">
+                   <div class="story_img">
+                     <img src="{{asset('images/story07.png')}}" style="object-fit: cover" alt="image" width="700px" height="268px">
+                     <span>45 min ago</span>
+                   </div>
+                   <div class="story_text">
+                       <h3>Cool features added!</h3>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                         industry lorem Ipsum has.</p>
+                       <a href="blog-single.html">READ MORE</a>
+                   </div>
+               </div>
+           </div>
+ 
+           <!-- story -->
+           <div class="col-md-4">
+               <div class="story_box" data-aos="fade-up" data-aos-duration="1500">
+                   <div class="story_img">
+                     <img src="{{asset('images/story02.png')}}" style="object-fit: cover" alt="image" width="700px" height="268px">
+                     <span>45 min ago</span>
+                   </div>
+                   <div class="story_text">
+                         <h3>Top rated app! Yupp.</h3>
+                       <p>Simply dummy text of the printing and typesetting industry lorem Ipsum has Lorem Ipsum is.</p>
+                       <a href="blog-single.html">READ MORE</a>
+                   </div>
+               </div>
+           </div>
+ 
+           <!-- story -->
+           <div class="col-md-4">
+               <div class="story_box" data-aos="fade-up" data-aos-duration="1500">
+                   <div class="story_img">
+                     <img src="{{asset('images/story03.png')}}" style="object-fit: cover" alt="image" width="700px" height="268px" >
+                     <span>45 min ago</span>
+                   </div>
+                   <div class="story_text">
+                         <h3>Creative ideas on app.</h3>
+                       <p>Printing and typesetting industry lorem Ipsum has Lorem simply dummy text of the.</p>
+                       <a href="blog-single.html">READ MORE</a>
+                   </div>
+               </div>
+           </div>
+         </div>
+         <!-- row end -->
+     </div>
+     <!-- container end -->
+   </section>
+   <!-- Story-Section-end -->
   <!-- How-It-Workes-Section-Start -->
   <section class="row_am how_it_works" id="how_it_work">
     <!-- container start -->
@@ -253,112 +321,6 @@
     <!-- container end -->
   </section>
   <!-- How-It-Workes-Section-end -->
-
-  <!-- Testimonial-Section start -->
-  <section class="row_am testimonial_section"> 
-    <!-- container start -->
-    <div class="container">
-      <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-        <!-- h2 -->
-        <h2>What our <span>customer say</span></h2>
-        <!-- p -->
-        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br> indus orem Ipsum has beenthe
-          standard dummy.</p>
-      </div>
-      <div class="testimonial_block" data-aos="fade-in" data-aos-duration="1500">
-        <div id="testimonial_slider" class="owl-carousel owl-theme">
-            <!-- user 1 -->
-          <div class="item">
-            <div class="testimonial_slide_box">
-              <div class="rating">
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-              </div>
-              <p class="review">
-                “ Lorem Ipsum is simply dummy text of the printing and typese tting us orem Ipsum has been lorem
-                beenthe standar dummy. ”
-              </p>
-              <div class="testimonial_img">
-                <img src="{{asset('images/testimonial_user1.png')}}" alt="image" >
-              </div>
-              <h3>Shayna John</h3>
-              <span class="designation">Careative inc</span>
-            </div>
-          </div>
-
-          <!-- user 2 -->
-          <div class="item">
-            <div class="testimonial_slide_box">
-              <div class="rating">
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-              </div>
-              <p class="review">
-                “ Lorem Ipsum is simply dummy text of the printing and typese tting us orem Ipsum has been lorem
-                beenthe standar dummy. ”
-              </p>
-              <div class="testimonial_img">
-                <img src="{{asset('images/testimonial_user2.png')}}" alt="image" >
-              </div>
-              <h3>Willium Den</h3>
-              <span class="designation">Careative inc</span>
-            </div>
-          </div>
-          
-          <!-- user 3 -->
-          <div class="item">
-            <div class="testimonial_slide_box">
-              <div class="rating">
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-                <span><i class="icofont-star"></i></span>
-              </div>
-              <p class="review">
-                “ Lorem Ipsum is simply dummy text of the printing and typese tting us orem Ipsum has been lorem
-                beenthe standar dummy. ”
-              </p>
-              <div class="testimonial_img">
-                <img src="{{asset('images/testimonial_user3.png')}}" alt="image" >
-              </div>
-              <h3>Cyrus Stephen</h3>
-              <span class="designation">Careative inc</span>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- total review -->
-        <div class="total_review">
-          <div class="rating">
-            <span><i class="icofont-star"></i></span>
-            <span><i class="icofont-star"></i></span>
-            <span><i class="icofont-star"></i></span>
-            <span><i class="icofont-star"></i></span>
-            <span><i class="icofont-star"></i></span>
-            <p>5.0 / 5.0</p>
-          </div>
-          <h3>2578</h3>
-          <a href="reviews.html">TOTAL USER REVIEWS <i class="icofont-arrow-right"></i></a>
-        </div>
-
-        <!-- avtar faces -->
-        <div class="avtar_faces">
-          <img src="{{asset('images/avtar_testimonial.png')}}" alt="image" >
-        </div>
-      </div>
-    </div>
-    <!-- container end -->
-  </section>
-  <!-- Testimonial-Section end -->
-
   <!-- Pricing-Section -->
   <section class="row_am pricing_section" id="pricing">
     <!-- container start -->
@@ -593,148 +555,68 @@
     <!-- container start end -->
   </section>
   <!-- Pricing-Section end -->
-
-  <!-- FAQ-Section start -->
-  <section class="row_am faq_section">
+   <!-- Trusted Section start -->
+   <section class="row_am trusted_section">
     <!-- container start -->
     <div class="container">
-      <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+      <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
         <!-- h2 -->
-        <h2><span>FAQ</span> - Frequently Asked Questions</h2>
+        <h2>Trusted by <span>150+</span> companies</h2>
         <!-- p -->
         <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br> indus orem Ipsum has beenthe
           standard dummy.</p>
       </div>
-      <!-- faq data -->
-      <div class="faq_panel">
-        <div class="accordion" id="accordionExample">
-          <div class="card" data-aos="fade-up" data-aos-duration="1500">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button type="button" class="btn btn-link active" data-toggle="collapse" data-target="#collapseOne">
-                    <i class="icon_faq icofont-plus"></i></i> How can i pay ?</button>
-              </h2>
-            </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has. been the
-                  industrys standard dummy text ever since the when an unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not only five cen turies but also the
-                  leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
+
+      <!-- logos slider start -->
+      <div class="company_logos" >
+        <div id="company_slider" class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/paypal.png')}}" alt="image" >
             </div>
           </div>
-          <div class="card" data-aos="fade-up" data-aos-duration="1500">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
-                  data-target="#collapseTwo"><i class="icon_faq icofont-plus"></i></i> How to setup account ?</button>
-              </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has. been the
-                  industrys standard dummy text ever since the when an unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not only five cen turies but also the
-                  leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/spoty.png')}}" alt="image" >
             </div>
           </div>
-          <div class="card" data-aos="fade-up" data-aos-duration="1500">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
-                  data-target="#collapseThree"><i class="icon_faq icofont-plus"></i></i>What is process to get refund
-                  ?</button>
-              </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has. been the
-                  industrys standard dummy text ever since the when an unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not only five cen turies but also the
-                  leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/shopboat.png')}}" alt="image" >
             </div>
           </div>
-          <div class="card" data-aos="fade-up" data-aos-duration="1500">
-            <div class="card-header" id="headingFour">
-              <h2 class="mb-0">
-                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
-                  data-target="#collapseFour"><i class="icon_faq icofont-plus"></i></i>What is process to get refund
-                  ?</button>
-              </h2>
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/slack.png')}}" alt="image" >
             </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-              <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has. been the
-                  industrys standard dummy text ever since the when an unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not only five cen turies but also the
-                  leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
+          </div>
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/envato.png')}}" alt="image" >
+            </div>
+          </div>
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/paypal.png')}}" alt="image" >
+            </div>
+          </div>
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/spoty.png')}}" alt="image" >
+            </div>
+          </div>
+          <div class="item">
+            <div class="logo">
+              <img src="{{asset('images/shopboat.png')}}" alt="image" >
             </div>
           </div>
         </div>
       </div>
+      <!-- logos slider end -->
     </div>
     <!-- container end -->
   </section>
-  <!-- FAQ-Section end -->
-
-  <!-- Beautifull-interface-Section start -->
-  <section class="row_am interface_section">
-    <!-- container start -->
-    <div class="container-fluid">
-      <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-          <!-- h2 -->
-          <h2>Beautifull <span>interface</span></h2>
-          <!-- p -->
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typese tting <br> indus orem Ipsum has beenthe standard dummy.
-          </p>
-      </div>
-
-        <!-- screen slider start -->
-        <div class="screen_slider" >
-          <div id="screen_slider" class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="screen_frame_img">
-                  <img src="{{asset('images/screen-1.png')}}" alt="image" >
-              </div>
-            </div>
-            <div class="item">
-              <div class="screen_frame_img">
-                  <img src="{{asset('images/screen-2.png')}}" alt="image" >
-              </div>
-            </div>
-            <div class="item">
-              <div class="screen_frame_img">
-                  <img src="{{asset('images/screen-3.png')}}" alt="image" >
-              </div>
-            </div>
-            <div class="item">
-              <div class="screen_frame_img">
-                  <img src="{{asset('images/screen-4.png')}}" alt="image" >
-              </div>
-            </div>
-            <div class="item">
-              <div class="screen_frame_img">
-                  <img src="{{asset('images/screen-5.png')}}" alt="image" >
-              </div>
-            </div>
-            <div class="item">
-              <div class="screen_frame_img">
-                  <img src="{{asset('images/screen-3.png')}}" alt="image" >
-              </div>
-            </div>
-        </div>
-        </div>
-        <!-- screen slider end -->
-    </div>
-    <!-- container end -->
-  </section>
-  <!-- Beautifull-interface-Section end -->
-
+  <!-- Trusted Section ends -->
   <!-- Download-Free-App-section-Start  -->
   <section class="row_am free_app_section" id="getstarted">
       <!-- container start -->
@@ -792,68 +674,6 @@
   </section>
   <!-- Download-Free-App-section-end  -->
 
-  <!-- Story-Section-Start -->
-  <section class="row_am latest_story" id="blog">
-   <!-- container start -->
-    <div class="container">
-        <div class="section_title" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="100">
-            <h2>Read latest <span>story</span></h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br> indus orem Ipsum has beenthe standard dummy.</p>
-        </div>
-        <!-- row start -->
-        <div class="row">
-            <!-- story -->
-          <div class="col-md-4">
-              <div class="story_box" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="story_img">
-                    <img src="{{asset('images/story01.png')}}" alt="image" >
-                    <span>45 min ago</span>
-                  </div>
-                  <div class="story_text">
-                      <h3>Cool features added!</h3>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry lorem Ipsum has.</p>
-                      <a href="blog-single.html">READ MORE</a>
-                  </div>
-              </div>
-          </div>
-
-          <!-- story -->
-          <div class="col-md-4">
-              <div class="story_box" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="story_img">
-                    <img src="{{asset('images/story02.png')}}" alt="image" >
-                    <span>45 min ago</span>
-                  </div>
-                  <div class="story_text">
-                        <h3>Top rated app! Yupp.</h3>
-                      <p>Simply dummy text of the printing and typesetting industry lorem Ipsum has Lorem Ipsum is.</p>
-                      <a href="blog-single.html">READ MORE</a>
-                  </div>
-              </div>
-          </div>
-
-          <!-- story -->
-          <div class="col-md-4">
-              <div class="story_box" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="story_img">
-                    <img src="{{asset('images/story03.png')}}" alt="image" >
-                    <span>45 min ago</span>
-                  </div>
-                  <div class="story_text">
-                        <h3>Creative ideas on app.</h3>
-                      <p>Printing and typesetting industry lorem Ipsum has Lorem simply dummy text of the.</p>
-                      <a href="blog-single.html">READ MORE</a>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <!-- row end -->
-    </div>
-    <!-- container end -->
-  </section>
-  <!-- Story-Section-end -->
-
   <!-- News-Letter-Section-Start -->
   <section class="newsletter_section">
     <!-- container start -->
@@ -879,150 +699,4 @@
   </section>
   <!-- News-Letter-Section-end -->
 
-  <!-- Footer-Section start -->
-  <footer>
-      <div class="top_footer" id="contact">
-        <!-- animation line -->
-        <div class="anim_line dark_bg">
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-          <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-        </div>
-            <!-- container start -->
-          <div class="container">
-            <!-- row start -->
-            <div class="row">
-                  <!-- footer link 1 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="abt_side">
-                      <div class="logo"> <img src="{{asset('images/footer_logo.png')}}" alt="image" ></div>
-                      <ul>
-                        <li><a href="#">support@example.com</a></li>
-                        <li><a href="#">+1-900-123 4567</a></li>
-                      </ul>
-                      <ul class="social_media">
-                          <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                          <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                          <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                          <li><a href="#"><i class="icofont-pinterest"></i></a></li>
-                      </ul>
-                    </div>
-                </div>
-
-                <!-- footer link 2 -->
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="links">
-                      <h3>Useful Links</h3>
-                        <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About us</a></li>
-                          <li><a href="#">Services</a></li>
-                          <li><a href="#">Blog</a></li>
-                          <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- footer link 3 -->
-                <div class="col-lg-3 col-md-6 col-12">
-                  <div class="links">
-                    <h3>Help & Suport</h3>
-                      <ul>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Terms & conditions</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                      </ul>
-                  </div>
-                </div>
-
-                <!-- footer link 4 -->
-                <div class="col-lg-2 col-md-6 col-12">
-                  <div class="try_out">
-                      <h3>Let’s Try Out</h3>
-                      <ul class="app_btn">
-                        <li>
-                          <a href="#">
-                            <img src="{{asset('images/appstore_blue.png')}}" alt="image" >
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <img src="{{asset('images/googleplay_blue.png')}}" alt="image" >
-                          </a>
-                        </li>
-                      </ul>
-                  </div>
-                </div>
-            </div>
-            <!-- row end -->
-        </div>
-        <!-- container end -->
-      </div>
-
-      <!-- last footer -->
-      <div class="bottom_footer">
-          <!-- container start -->
-          <div class="container">
-            <!-- row start -->
-            <div class="row">
-              <div class="col-md-6">
-                  <p>© Copyrights 2022. All rights reserved.</p>
-              </div>
-              <div class="col-md-6">
-                  <p class="developer_text">Design & developed by <a href="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</a></p>
-              </div>
-          </div>
-          <!-- row end -->
-          </div>
-          <!-- container end -->
-      </div>
-
-      <!-- go top button -->
-      <div class="go_top">
-          <span><img src="{{asset('images/go_top.png')}}" alt="image" ></span>
-      </div>
-  </footer>
-  <!-- Footer-Section end -->
-
-<!-- VIDEO MODAL -->
-<div class="modal fade youtube-video" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <button id="close-video" type="button" class="button btn btn-default text-right" data-dismiss="modal">
-          <i class="icofont-close-line-circled"></i>
-        </button>
-          <div class="modal-body">
-              <div id="video-container" class="video-container">
-                  <iframe id="youtubevideo" src="#" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-              </div>        
-          </div>
-          <div class="modal-footer">
-          </div>
-      </div> 
-  </div>
-</div>
-
-<div class="purple_backdrop"></div>
-
-</div>
-<!-- Page-wrapper-End -->
-
-<!-- Jquery-js-Link -->
-<script src="{{asset('js/jquery.js')}}"></script>
-<!-- owl-js-Link -->
-<script src="{{asset('js/owl.carousel.min.js')}}"></script>
-<!-- bootstrap-js-Link -->
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-<!-- aos-js-Link -->
-<script src="{{asset('js/aos.js')}}"></script>
-<!-- main-js-Link -->
-<script src="{{asset('js/main.js')}}"></script>
 @endsection
