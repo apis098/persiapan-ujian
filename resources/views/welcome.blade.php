@@ -556,7 +556,7 @@
   </section>
   <!-- Pricing-Section end -->
    <!-- Trusted Section start -->
-   <section class="row_am trusted_section">
+   <section class="row_am trusted_section mb-5">
     <!-- container start -->
     <div class="container">
       <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
@@ -617,65 +617,9 @@
     <!-- container end -->
   </section>
   <!-- Trusted Section ends -->
-  <!-- Download-Free-App-section-Start  -->
-  <section class="row_am free_app_section" id="getstarted">
-      <!-- container start -->
-      <div class="container">
-          <div class="free_app_inner" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="100"> 
-            <!-- vertical line animation -->
-            <div class="anim_line dark_bg">
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-              <span><img src="{{asset('images/anim_line.png')}}" alt="anim_line"></span>
-            </div>
-                <!-- row start -->
-              <div class="row">
-                  <!-- content -->
-                  <div class="col-md-6">
-                      <div class="free_text">
-                          <div class="section_title">
-                              <h2>Let’s download free from apple and play store</h2>
-                              <p>Instant free download from apple and play store orem Ipsum is simply dummy text of the printing.
-                                and typese tting indus orem Ipsum has beenthe standard</p>
-                          </div>
-                          <ul class="app_btn">
-                            <li>
-                              <a href="#">
-                                <img src="{{asset('images/appstore_blue.png')}}" alt="image" >
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <img src="{{asset('images/googleplay_blue.png')}}" alt="image" >
-                              </a>
-                            </li>
-                          </ul>
-                      </div>
-                  </div>
-
-                  <!-- images -->
-                  <div class="col-md-6">
-                      <div class="free_img">
-                          <img src="{{asset('images/download-screen01.png')}}" alt="image" >
-                          <img class="mobile_mockup" src="{{asset('images/download-screen02.png')}}" alt="image" >
-                      </div>
-                  </div>
-              </div>
-              <!-- row end -->
-          </div>
-      </div>
-      <!-- container end -->
-  </section>
-  <!-- Download-Free-App-section-end  -->
 
   <!-- News-Letter-Section-Start -->
-  <section class="newsletter_section">
+  <section class="newsletter_section" >
     <!-- container start -->
     <div class="container">
         <div class="newsletter_box">
