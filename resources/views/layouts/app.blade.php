@@ -40,11 +40,25 @@
             <div id="loader"></div>
         </div>
         <main>
-            @include('layouts.nav')
+            @if (!in_array(Route::currentRouteName(), ['login', 'register']))
+                @include('layouts.nav')
+            @endif
             @yield('content')
+            @if (!in_array(Route::currentRouteName(), ['login', 'register']))
             @include('layouts.footer')
+            @endif
         </main>
     </div>
+    <!-- Jquery-js-Link -->
+    <script src="{{asset('js/jquery.js')}}"></script>
+    <!-- owl-js-Link -->
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <!-- bootstrap-js-Link -->
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <!-- aos-js-Link -->
+    <script src="{{asset('js/aos.js')}}"></script>
+    <!-- main-js-Link -->
+    <script src="{{asset('js/main.js')}}"></script>
 </body>
 
 </html>

@@ -132,14 +132,5 @@
   
   </div>
   <!-- Page-wrapper-End -->
+
   
-  <!-- Jquery-js-Link -->
-  <script src="{{asset('js/jquery.js')}}"></script>
-  <!-- owl-js-Link -->
-  <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-  <!-- bootstrap-js-Link -->
-  <script src="{{asset('js/bootstrap.min.js')}}"></script>
-  <!-- aos-js-Link -->
-  <script src="{{asset('js/aos.js')}}"></script>
-  <!-- main-js-Link -->
-  <script src="{{asset('js/main.js')}}"></script>
