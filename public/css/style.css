@@ -3193,7 +3193,7 @@ header.fix_style.white_header {
 
 /* Sign Up Css Start */
 .full_bg {
-    /*background-image: url(../images/form_bg.png);*/
+    /* background: url("/public/images/bg-login.jpg"); */
     background-size: cover;
     background: var(--purple);
     width: 100%;
@@ -3216,10 +3216,14 @@ header.fix_style.white_header {
 
 .signup_section .top_part {
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
+.login-form{
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #00000054;
+    background-color: var(--bg-white);
+}
 .signup_form {
     width: 570px;
     margin: 0 auto;
@@ -3244,7 +3248,19 @@ header.fix_style.white_header {
 .signup_form form .form-group {
     margin-bottom: 20px;
 }
-
+.form-input{
+    height: 60px;
+    padding: 5px 20px;
+    color: var(--body-text-purple);
+    border: 2px solid #E1DBF4;
+    border-radius: 12px;
+    font-weight: 500;
+}
+.form-input:focus{
+    box-shadow: none;
+    border-color: var(--purple);
+    color: var(--purple);
+}
 .signup_form form .form-group .form-control {
     height: 60px;
     padding: 5px 20px;
@@ -3290,8 +3306,7 @@ header.fix_style.white_header {
     color: #8081AD;
     margin-top: 30px;
 }
-
-.signup_form .or_option .google_btn {
+.google_btn {
     min-width: 330px;
     border: 2px solid #E1DBF4;
     text-align: center;
@@ -3300,12 +3315,10 @@ header.fix_style.white_header {
     border-radius: 100px;
     transition: .4s all;
 }
-
-.signup_form .or_option .google_btn:hover {
+.google_btn:hover {
     border-color: var(--light-purple);
 }
-
-.signup_form .or_option .google_btn img {
+.google_btn img {
     margin-right: 20px;
 }
 
@@ -3679,7 +3692,21 @@ header.fix_style.white_header {
 .story_box_image .story_text a:hover {
     text-decoration:underline;
 }
-
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
 
 
 

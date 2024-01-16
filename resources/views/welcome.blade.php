@@ -46,7 +46,6 @@
             <div class="right_icon">
               <img src="{{asset('images/shield_icon.png')}}" alt="image" >
             </div>
-           
           </div>
         </div>
         <!-- banner slides end -->
@@ -60,7 +59,7 @@
 
 
   <!-- Features-Section-Start -->
-  <section class="row_am features_section" id="features">
+  <section class="row_am features_section" id">
     <!-- container start -->
     <div class="container">
       <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
