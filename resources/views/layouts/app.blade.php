@@ -16,18 +16,20 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <link rel="stylesheet" href="{{asset('/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/custom-animation.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/slick.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/swiper-bundle.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/meanmenu.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/font-awesome-pro.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/spacing.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/login-style.css')}}">
+    @if(request()->is('login') || request()->is('register'))
+        <link rel="stylesheet" href="{{asset('/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/custom-animation.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/slick.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/nice-select.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/flaticon.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/swiper-bundle.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/meanmenu.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/font-awesome-pro.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/spacing.css')}}">
+        <link rel="stylesheet" href="{{asset('/css/login-style.css')}}">
+    @endif
 
     <!-- icofont-css-link -->
     <link rel="stylesheet" href="{{ asset('css/icofont.min.css') }}">
@@ -74,27 +76,29 @@
     <!-- main-js-Link -->
     <script src="{{asset('js/main.js')}}"></script>
 
+    @if(request()->is('login') || request()->is('register'))
       <!-- JS here -->
-    <script src="{{asset('/login-js/jquery.js')}}"></script>
-    <script src="{{asset('/login-js/waypoints.js')}}"></script>
-    <script src="{{asset('/login-js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('/login-js/slick.min.js')}}"></script>
-    <script src="{{asset('/login-js/magnific-popup.js')}}"></script>
-    <script src="{{asset('/login-js/counterup.js')}}"></script>
-    <script src="{{asset('/login-js/wow.js')}}"></script>
-    <script src="{{asset('/login-js/nice-select.js')}}"></script>
-    <script src="{{asset('/login-js/swiper-bundle.js')}}"></script>
-    <script src="{{asset('/login-js/meanmenu.js')}}"></script>
-    <script src="{{asset('/login-js/tilt.jquery.js')}}"></script>
-    <script src="{{asset('/login-js/isotope-pkgd.js')}}"></script>
-    <script src="{{asset('/login-js/imagesloaded-pkgd.js')}}"></script>
-    <script src="{{asset('/login-js/ajax-form.js')}}"></script>
-    <script src="{{asset('/login-js/smooth-scrollbar.js')}}"></script>
-    <script src="{{asset('/login-js/gsap.min.js')}}"></script>
-    <script src="{{asset('/login-js/ScrollTrigger.min.js')}}"></script>
-    <script src="{{asset('/login-js/ScrollSmoother.min.js')}}"></script>
-    <script src="{{asset('/login-js/parallax-scroll.js')}}"></script>
-    <script src="{{asset('/login-js/main.js')}}"></script>
+        <script src="{{asset('/login-js/jquery.js')}}"></script>
+        <script src="{{asset('/login-js/waypoints.js')}}"></script>
+        <script src="{{asset('/login-js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset('/login-js/slick.min.js')}}"></script>
+        <script src="{{asset('/login-js/magnific-popup.js')}}"></script>
+        <script src="{{asset('/login-js/counterup.js')}}"></script>
+        <script src="{{asset('/login-js/wow.js')}}"></script>
+        <script src="{{asset('/login-js/nice-select.js')}}"></script>
+        <script src="{{asset('/login-js/swiper-bundle.js')}}"></script>
+        <script src="{{asset('/login-js/meanmenu.js')}}"></script>
+        <script src="{{asset('/login-js/tilt.jquery.js')}}"></script>
+        <script src="{{asset('/login-js/isotope-pkgd.js')}}"></script>
+        <script src="{{asset('/login-js/imagesloaded-pkgd.js')}}"></script>
+        <script src="{{asset('/login-js/ajax-form.js')}}"></script>
+        <script src="{{asset('/login-js/smooth-scrollbar.js')}}"></script>
+        <script src="{{asset('/login-js/gsap.min.js')}}"></script>
+        <script src="{{asset('/login-js/ScrollTrigger.min.js')}}"></script>
+        <script src="{{asset('/login-js/ScrollSmoother.min.js')}}"></script>
+        <script src="{{asset('/login-js/parallax-scroll.js')}}"></script>
+        <script src="{{asset('/login-js/main.js')}}"></script>
+    @endif
 </body>
 
 </html>
