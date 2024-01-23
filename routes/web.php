@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\categoryController;
 use App\Http\Controllers\foodController;
+use App\Http\Controllers\SocialiteController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Auth::routes();
 
@@ -38,4 +40,7 @@ Route::middleware('auth')->group(function(){
     
     Route::resource('category', categoryController::class);
 });
+
+Route::get('/auth/redirect',[SocialiteController::class,'redirectGoogle'])->name('redirect.google');
+Route::get('/google/redirect',[SocialiteController::class,'googleCallback'])->name('google.callback');
 
