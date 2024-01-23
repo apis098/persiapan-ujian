@@ -69,10 +69,12 @@
             <main>
                 <!-- tp-banner-area-start -->
                 <div class="signin-banner-area signin-banner-main-wrap d-flex align-items-center">
-                    <div class="signin-banner-left-box signin-banner-bg p-relative"
-                        data-background="{{ asset('/img/login/login-bg-shape.png') }}">
+                    <div class="signin-banner-left-box signin-banner-bg p-relative" data-background="{{ asset('/img/login/login-bg-shape.png') }}">
                         <div class="signin-banner-bottom-shape">
                             <img src="{{ asset('/img/login/login-shape-1.png') }}" alt="">
+                        </div>
+                        <div class="text-start">
+                            <a style="position:relative; top:-100px;" href="/" class="btn btn-outline-light rounded-4"><i class="fa-solid fa-arrow-left"></i> Kembali</a>
                         </div>
                         <div class="signin-banner-left-wrap">
                             <div class="signin-banner-title-box mb-100">
@@ -97,9 +99,6 @@
                     </div>
                     <div class="signin-banner-from d-flex justify-content-center align-items-center">
                         <div class="signin-banner-from-wrap">
-                            <div class="signin-banner-title-box text-end">
-                                <a href="/" class=" text-dark"><i class="fa-solid fa-arrow-left"></i> Kembali</a>
-                            </div>
                             <div class="signin-banner-title-box">
                                 <h4 class="signin-banner-from-title">Masuk ke KanePict</h4>
                             </div>

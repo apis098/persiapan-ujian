@@ -1340,6 +1340,6 @@ if ($('.tp-header-top-animation').length > 0) {
 	// 		}
 	// 	}
 	// }
-
+	
 
 })(jQuery);
