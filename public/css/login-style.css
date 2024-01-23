@@ -1140,12 +1140,13 @@ input[type=color] {
   background-color: var(--tp-common-blue-4);
   text-align: center;
   height: 55px;
+  width: 100%;
   padding: 0px 100px;
   display: inline-block;
   line-height: 55px;
   color: var(--tp-common-white);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 12px;
 }
 .signin-btn:hover {
@@ -12023,7 +12024,7 @@ input[type=color] {
   right: 0;
   transform: translateY(-50%);
 }
-.postbox__comment-input .eye-btn .eye-on {
+/* .postbox__comment-input .eye-btn .eye-on {
   transform: scale(0);
 }
 .postbox__comment-input .eye-btn.open .eye-on {
@@ -12031,7 +12032,7 @@ input[type=color] {
 }
 .postbox__comment-input .eye-btn.open .eye-off {
   transform: scale(0);
-}
+} */
 .postbox__comment-input .inputText {
   border-radius: 12px;
   padding: 0px 20px;
@@ -15946,7 +15947,7 @@ input[type=color] {
 .signin-banner-img.signin-img-3 {
   position: absolute;
   right: 63px;
-  bottom: -85px;
+  bottom: -45px;
   animation: tptranslateY2 4s forwards infinite alternate;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

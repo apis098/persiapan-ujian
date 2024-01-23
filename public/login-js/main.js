@@ -1319,27 +1319,27 @@ if ($('.tp-header-top-animation').length > 0) {
 		});
 	};
 
-	$('#click').on('click', function (){
-		$(this).toggleClass('open');
-		var x = document.getElementById("myInput");
-			if (x.type === "password") {
-			   x.type = "text";
-			} else {
-			   x.type = "password";
-			}
-	});
+	// $('#showPassword').on('click', function (){
+	// 	$(this).toggleClass('open');
+	// 	var x = document.getElementById("passwordInput");
+	// 		if (x.type === "password") {
+	// 		   x.type = "text";
+	// 		} else {
+	// 		   x.type = "password";
+	// 		}
+	// });
 
 
-	if ($('#myInput').length > 0) {
-		function myFunction() {
-			var x = document.getElementById("myInput");
-			if (x.type === "password") {
-			   x.type = "text";
-			} else {
-			   x.type = "password";
-			}
-		}
-	}
+	// if ($('#passwordInput').length > 0) {
+	// 	function myFunction() {
+	// 		var x = document.getElementById("passwordInput");
+	// 		if (x.type === "password") {
+	// 		   x.type = "text";
+	// 		} else {
+	// 		   x.type = "password";
+	// 		}
+	// 	}
+	// }
 
 
 })(jQuery);

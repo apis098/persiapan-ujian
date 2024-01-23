@@ -38,10 +38,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="pricing.html">Berlangganan</a>
                     </li>
-    
-                    <li class="nav-item">
-                        <a class="nav-link dark_btn" href="/login">MASUK</a>
-                    </li>
+                    @if(!Auth::check())
+                        <li class="nav-item">
+                            <a class="nav-link dark_btn" href="/login">MASUK</a>
+                        </li>
+                    @else
+                        <li class="nav-item">
+                            <a href="{{route('logout')}}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();"  class="nav-link dark_btn">KELUAR</a>
+                        </li>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                            @csrf
+                        </form>
+                    @endif
                 </ul>
             </div>
         </nav>
