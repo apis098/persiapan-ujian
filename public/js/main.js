@@ -10,7 +10,7 @@ function preloader_fade() {
 }
 
 $(document).ready(function () {
-    window.setTimeout("preloader_fade();", 500); //call fade in .5 seconds
+    window.setTimeout("preloader_fade();", 100); //call fade in .5 seconds
 });
 
 // All Slider Js

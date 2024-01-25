@@ -75,7 +75,25 @@
     <script src="{{asset('js/aos.js')}}"></script>
     <!-- main-js-Link -->
     <script src="{{asset('js/main.js')}}"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+    <script>
+        @if (session('error'))
+            iziToast.error({
+                title: 'Gagal',
+                message: '{{ session('error') }}',
+                position: 'topCenter'
+            });
+        @endif
+    </script>
+    <script>
+        @if (session('success'))
+            iziToast.success({
+                title: 'Sukses',
+                message: '{{ session('success') }}',
+                position: 'topCenter'
+            });
+        @endif
+    </script>
     @if(request()->is('login') || request()->is('register'))
       <!-- JS here -->
         <script src="{{asset('/login-js/jquery.js')}}"></script>

@@ -23,6 +23,7 @@ class SocialiteController extends Controller
                 'name' => $googleUser->name,
                 'email'=>$googleUser->email,
                 'password'=>'default_password',
+                'google_id'=>1,
                 'role' => 'user',
            ]);
            Auth::login($data);

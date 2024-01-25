@@ -103,7 +103,7 @@
                                 <h4 class="signin-banner-from-title">Daftar ke KanePict</h4>
                             </div>
                             <div class="signin-banner-login-browser">
-                                <a href="#">
+                                <a href="{{route('redirect.google')}}">
                                     <svg class="mr-10" width="23" height="23" viewBox="0 0 23 23" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -251,7 +251,7 @@
                                 </div>
                               </form>
                                 <div class="signin-banner-from-register">
-                                    <a href="/register">Belum Punya Akun? <span>Register Disini</span></a>
+                                    <a href="/login">Sudah Punya Akun? <span>Login Disini</span></a>
                                 </div>
                             </div>
                         </div>
