@@ -51,12 +51,13 @@
         <!-- tp-header-area-start -->
         <div class="header-signin-area header-bottom__transparent header-signin-ptb z-index-5">
             <div class="container-fluid">
-                < class="row align-items-center">
+                <div class="row align-items-center">
                     <div class="col-6">
                         <div class="header-signin-logo">
                             <a href="index.html"><img src="{{ asset('/img/logo/logo-inner.html') }}" alt=""></a>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
         </div>
