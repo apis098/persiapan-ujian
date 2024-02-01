@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -36,6 +38,29 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+    public function actionLogin(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|email', 
+            'password' => 'required', 
+        ], [
+            'email.required' => 'Email tidak boleh kosong.',
+            'email.email' => 'Format email tidak valid.',
+            'password.required' => 'Password tidak boleh kosong.',
+        ]);
+
+        $data = [
+            'email' => $request->input('email'),
+            'password' => $request->input('password'),
+        ];
+
+        if (Auth::attempt($data)) {
+            $user = Auth::user();
+            return redirect()->route('welcome')->with('success','berhasil login');
+        } else {
+            return redirect()->back()->with('error', 'Email atau Password Salah')->withInput();
+        }
     }
     
 }

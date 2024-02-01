@@ -25,6 +25,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post('login/action',[LoginController::class, 'actionlogin'])->name('loginAction');
 
 
 Route::middleware('auth')->group(function(){

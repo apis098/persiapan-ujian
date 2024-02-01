@@ -238,13 +238,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6">
-                                            <div class="postbox__forget text-end">
-                                             @if (Route::has('password.request'))
-                                                <a href="{{route('password.request')}}">Lupa Kata Sandi?</a>
-                                             @endif
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="signin-banner-from-btn mb-20">

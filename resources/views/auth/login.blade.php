@@ -125,7 +125,7 @@
                             </div>
                             <div class="signin-banner-from-box">
                                 <h5 class="signin-banner-from-subtitle">Atau</h5>
-                                <form method="POST" action="{{ route('login') }}">
+                                <form method="POST" action="{{ route('loginAction') }}">
                                     @csrf
                                     <div class="row">
                                         <div class="col-12">

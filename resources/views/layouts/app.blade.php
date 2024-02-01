@@ -16,7 +16,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    @if(request()->is('login') || request()->is('register'))
+    @if(request()->is('login') || request()->is('register') || request()->is('password/reset'))
         <link rel="stylesheet" href="{{asset('/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('/css/animate.css')}}">
         <link rel="stylesheet" href="{{asset('/css/custom-animation.css')}}">
@@ -46,6 +46,10 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{asset('images/icon.png')}}" type="image/x-icon">
     {{-- Font awesome --}}
+    {{-- izitoast --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+    {{-- end izitoast --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -56,12 +60,12 @@
             <div id="loader"></div>
         </div>
         <main>
-            @if (!in_array(Route::currentRouteName(), ['login', 'register']))
+            @if (!in_array(Route::currentRouteName(), ['login', 'register','password.request']))
                 @include('layouts.nav')
             @endif
-            @yield('content')
-            @if (!in_array(Route::currentRouteName(), ['login', 'register']))
-            @include('layouts.footer')
+                @yield('content')
+            @if (!in_array(Route::currentRouteName(), ['login', 'register','password.request']))
+                @include('layouts.footer')
             @endif
         </main>
     </div>
@@ -75,16 +79,6 @@
     <script src="{{asset('js/aos.js')}}"></script>
     <!-- main-js-Link -->
     <script src="{{asset('js/main.js')}}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
-    <script>
-        @if (session('error'))
-            iziToast.error({
-                title: 'Gagal',
-                message: '{{ session('error') }}',
-                position: 'topCenter'
-            });
-        @endif
-    </script>
     <script>
         @if (session('success'))
             iziToast.success({
@@ -93,8 +87,22 @@
                 position: 'topCenter'
             });
         @endif
+        @if ($errors->any())
+             iziToast.error({
+                title: 'Sukses',
+                message: '{{ $errors->first() }}',
+                position: 'topCenter'
+            });
+        @endif
+        @if (session('error'))
+            iziToast.error({
+                title: 'Gagal',
+                message: '{{ session('error') }}',
+                position: 'topCenter'
+            });
+        @endif
     </script>
-    @if(request()->is('login') || request()->is('register'))
+    @if(request()->is('login') || request()->is('register') || request()->is('password/reset'))
       <!-- JS here -->
         <script src="{{asset('/login-js/jquery.js')}}"></script>
         <script src="{{asset('/login-js/waypoints.js')}}"></script>
